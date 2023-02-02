@@ -1,0 +1,17 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+@media (max-width: 736px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  html {
+    font-size: 87.5%;
+  }
+}
